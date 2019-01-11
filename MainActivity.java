@@ -37,6 +37,7 @@ import javax.annotation.Nullable;
 public class MainActivity extends AppCompatActivity {
 
 
+    private  int test ; 
     private static final String TAG = "MainActivity";
     private static final String KEY_TITLE= "title";
     private static final String KEY_DESCRIPTION= "description";
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         textViewData= findViewById(R.id.text_view_data);
 
     }
+
 
     @Override
     protected void onStart() {
